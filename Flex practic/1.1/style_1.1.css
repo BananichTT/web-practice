@@ -1,0 +1,11 @@
+.cart{
+	display: flex;
+
+}
+
+.cart_text{
+	border: 2px solid #493025;
+	width: 100px;
+	height: 100px;
+
+}

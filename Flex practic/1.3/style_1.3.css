@@ -1,0 +1,12 @@
+.cart{
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+.cart_text{
+	border: 2px solid #493025;
+	width: 100px;
+	height: 100px;
+
+}
