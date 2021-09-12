@@ -1,0 +1,16 @@
+.cart{
+	height: 800px;
+	width: 800px;
+	border: 2px solid #FF00FF;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.cart_text{
+	border: 2px solid #32df31;
+	width: 100px;
+	height: 100px;
+}
