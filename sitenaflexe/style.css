@@ -71,3 +71,16 @@ main{
 	justify-content: space-around;
 	padding: 20px;
 }
+
+.main_cart_text{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+}
+
+.main_cart_text a{
+	text-decoration: none;
+	color: #456dc7;
+}
