@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+}
+nav{
+	background-color: #1b1b1b;
+	color: #fff;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	padding-left: 70px;
+	padding-right: 40px;
+
+}
+
+span{
+	color: #f06464;
+}
+
+.nav_menu_hr li{
+	display: inline; /* для того, чтобы элементы были в 1 строчку */
+	padding: 15px;
+}
+
+.nav_menu_hr a{
+	text-decoration: none; /* убрало декорацию ссылок */
+	color: #fff;
+}
+
+.nav_menu_hr li:hover{
+	border-bottom: 2px solid #f06464;
+}
+
+
+.baner_text_logo{
+	font-size: 50px;
+	
+}
+
+.baner_text{
+	margin: auto;
+}
+
+.baner{
+	background-image: url("images/slide_01.jpg");
+	height: 550px;
+	color: #fff;
+
+	display: flex;
+
+}
+
+h2{
+	text-align: center;
+}
+
+footer{
+	background-color: #dbdbdb;
+	height: 80px;
+	display: flex;
+}
+
+.footer_text{
+	margin: auto;
+	color: #5b5555;
+}
+
+main{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
