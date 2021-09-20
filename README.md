@@ -4,3 +4,5 @@ ____
 ### Сcылки на полезные ресурсы:
   - [Color Name](https://htmlcolorcodes.com/color-names/)
   - [Grafients](https://webgradients.com)
+  - [Google шрифты](https://fonts.google.com)
+  - [Иконки для сайтов](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
