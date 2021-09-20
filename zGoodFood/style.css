@@ -6,10 +6,10 @@
 body{
 	background-image: url("images/bg.jpg");
 	margin: 0;
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 0;
 }
 
 header{
@@ -30,42 +30,39 @@ header{
 }
 
 main{
+	margin-top: 100px;
 	background-color: #fff;
 	width: 80%;
 }
 
-.menu_hr li{
+.menu_hr li {
 	display: inline;
 	padding: 20px;
-
+	font-weight: bold;
 }
 
 .menu_hr li:hover{
 	background-color: #312f2f;
 	color: #fff;
-}
-
-
-.menu_hr a{
-	text-decoration: none;
-	color: #000;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 .menu_hr{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-
 }
 
-.meat{
-	height: 300px;
-	width: 400px;
+img{
+	height: 400px;
+	width: 700px;
 }
 
 .main_cart{
 	display: flex;
 }
+
 .main_cart_text{
 	display: flex;
 	flex-direction: column;
@@ -76,3 +73,25 @@ h1{
 	font-family: Dancing;
 	font-size: 50px;
 }
+span{
+	color: #f06464;
+}
+
+p{
+	text-align: center;
+}
+
+button{
+	width: 150px;
+	height: 35px;
+
+	background-color: #312f2f ;
+	color: #fff;
+
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #656161;
+}
+
