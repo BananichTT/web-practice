@@ -1,0 +1,78 @@
+@font-face{
+	font-family: "Dancing";
+	src: url(font/DancingScript-Regular.otf);
+}
+
+body{
+	background-image: url("images/bg.jpg");
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+header{
+	color: #fff;
+	font-family: Dancing;
+	font-size: 50px;
+}
+
+.zg{
+	font-size: 90px
+}
+
+.lor{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	font-family: 'times new roman';
+}
+
+main{
+	background-color: #fff;
+	width: 80%;
+}
+
+.menu_hr li{
+	display: inline;
+	padding: 20px;
+
+}
+
+.menu_hr li:hover{
+	background-color: #312f2f;
+	color: #fff;
+}
+
+
+.menu_hr a{
+	text-decoration: none;
+	color: #000;
+}
+
+.menu_hr{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.meat{
+	height: 300px;
+	width: 400px;
+}
+
+.main_cart{
+	display: flex;
+}
+.main_cart_text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1{
+	font-family: Dancing;
+	font-size: 50px;
+}
