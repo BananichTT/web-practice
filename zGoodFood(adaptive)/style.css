@@ -23,12 +23,12 @@ header{
 
 .zg{
 	font-family: Dancing;
-	font-size: 10vw;
+	font-size: 8vw;
 	margin-bottom: 0;
 }
 
 .lor{
-	font-size: 3vw;
+	font-size: 2vw;
 	font-family: 'times new roman';
 	display: flex;
 	justify-content: center;
@@ -124,8 +124,12 @@ button:hover{
 
 /*Адаптивный сайт*/
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1920px){
 	.menu_text{
+		display: none;
+	}
+
+	.nav_img{
 		display: none;
 	}
 
@@ -138,7 +142,7 @@ button:hover{
 	}
 
 	.zg{
-		font-size: 10vw;
+		font-size: 15vw;
 		margin-bottom: 0;
 
 	}
@@ -151,7 +155,11 @@ button:hover{
 .menu{
 		width: 100%;
 		height: 50px;
-		background-color: #312f2f ;
+		background-color: #312f2f;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 img{
@@ -161,6 +169,7 @@ img{
 
 .menu_text{
 		opacity: 1;
+		padding-left: 50%;
 
 		display: flex;
 		justify-content: center;
@@ -168,14 +177,13 @@ img{
 	}
 
 .nav_img{
-		padding: 0;
 		display: block;
-		width: 50px;
-		filter: invert(100%) sepia(1%) saturate(311%) hue-rotate(292deg) brightness(112%) contrast(100%);
+		width: 100px;
+		filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(55deg) brightness(101%) contrast(102%);	
 	}
 
 	footer{
-		margin-top: 1.5%;
+		margin-top: 5%;
 
 		display: flex;
 		justify-content: space-around;
@@ -214,7 +222,11 @@ img{
 	.menu{
 		width: 100%;
 		height: 50px;
-		background-color: #312f2f ;
+		background-color: #312f2f;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.main_cart{
@@ -224,7 +236,9 @@ img{
 	}
 
 	.main_cart_text{
-		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	img{
@@ -234,16 +248,13 @@ img{
 
 	.menu_text{
 		opacity: 1;
-		display: flex;
-		justify-content: center;
-
+		padding-left: 40%;		
 	}
 
 	.nav_img{
-		padding: 0;
 		display: block;
 		width: 50px;
-		filter: invert(100%) sepia(1%) saturate(311%) hue-rotate(292deg) brightness(112%) contrast(100%);
+		filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(55deg) brightness(101%) contrast(102%);	
 	}
 
 	footer{
