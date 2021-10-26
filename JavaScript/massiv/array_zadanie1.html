@@ -8,13 +8,14 @@
 <body>
 	<script>
 		let arr = [10,20,30,40,50];
-		document.write("Было: " + "a[ " + arr + "] <br>");
+		document.write("Было: " + "a [ " + arr + "] <br>");
 
 		arr.splice(2,0,60);
 		arr.unshift(100);
 		arr.pop();
 
-		document.write("Стало: " + "a[ " + arr + "]");
+		document.write("Стало: " + "a [ " + arr + "] <br>");
+		document.write("Сумма элементов получившегося массива = " + arr.reduce((a, b) => a + b, 0));
 	</script>
 </body>
 </html>
