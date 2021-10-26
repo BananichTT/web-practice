@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let city = ["Тула", "Томск", "Москва", "Рязань"];
+		document.write("Было: " + "a [ " + city + "] <br>");
+		city.splice(2,2);
+		city.unshift("Мурманск");
+		city.splice(2,0,"Барнаул", "Воронеж");
+		city.splice(5,0,"Калининград");
+
+		document.write("Стало: " + "a [ " + city + "] <br>");
+
+		document.write("В массиве city " + city.length + " элементов");
+
+	</script>
+</body>
+</html>
