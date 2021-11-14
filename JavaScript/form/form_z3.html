@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forma Buket</title>
+</head>
+<script>
+	function btnClick(){
+		let sum = 0;
+		let r = forma.rose.value;
+		let l = forma.lili.value;
+		let h = forma.hriz.value;
+
+		sum = (Number(r) * 200) + (Number(l) * 250) + (Number(h) * 150);
+
+		if(forma.cart.checked){
+			sum = sum + 300;
+		}
+		if(forma.box.checked){
+			sum = sum + 350;
+		}
+		alert(sum + " рублей");
+	}
+</script>
+<body>
+	<h2>Собери букет</h2>
+	<form name="forma">
+		<table>
+			<tr>
+				<td>Розы</td>
+				<td><input name="rose" type="text"></td>
+				<td>200р/шт</td>
+			</tr>
+
+			<tr>
+				<td>Лилии</td>
+				<td><input name="lili" type="text"></td>
+				<td>250р/шт</td>
+			</tr>
+
+			<tr>
+				<td>Хризантемы</td>
+				<td><input name="hriz" type="text"></td>
+				<td>150р/шт</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="cart"> Корзинка</td>
+				<td>300р/шт</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input type="checkbox" name="box"> Коробочка</td>
+				<td>350р/шт</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td><input class="button" name="butt" type="button" value="Расчитать" onclick="btnClick()"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

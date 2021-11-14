@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forma</title>
+</head>
+	<script>
+		function btnClick(){
+			let a = forma.one.value;
+			let b = forma.two.value;
+			let sum = Number(a) + Number(b);
+			let pr = Number(a) * Number(b);
+			let sr = (Number(a) + Number(b))/2;
+
+			alert("Сумма: " + sum + "\n" + "Произведение: " + pr + "\n" + "Среднее арифметическое: " + sr);
+		}
+	</script>
+<body>
+	<form name="forma">
+		Введите первое значение <input name="one" type="text"> <br>
+		Введите второе значение <input name="two" type="text"> <br>
+		<input name="butt" type="button" value="Вычисления" onclick="btnClick()"> <br>
+	</form>
+</body>
+</html>
