@@ -17,7 +17,6 @@
 					<option value="1"></option>
 					<option value="tea"> TEA </option>
 					<option value="coffee"> COFFEE </option>
-					<option value="juice"> JUICE </option>
 				</select>
 			</td>
 		</tr>
@@ -26,13 +25,21 @@
 			<td>
 				<table>
 					<tr>
-						<td><select name="" id="tea_items_select">
+						<td><select name="tea_items_select" id="tea_items_select">
 							<option value="green_tea"> GREEN TEA / 150р </option>
 							<option value="black_tea"> BLACK TEA / 100р </option>
 						</select></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="shugar"> SHUGAR +10р </td>
+						<td><input type="checkbox" name="t_shugar"> SHUGAR +10р </td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="t_cup" value ="t_paper_cup" checked> PAPER CUP </td>
+						<td><input type="radio" name="t_cup" value ="t_plastic_cup"> PLASTIC CUP +50р</td>
+					</tr>
+					<tr>
+						<td>Ваше имя: </td>
+						<td><input name="t_text" type="text"></td>
 					</tr>
 				</table>
 			</td>
@@ -42,16 +49,24 @@
 			<td>
 				<table>
 					<tr>
-						<td><select name="" id="coffee_items_select">
+						<td><select name="coffee_items_select" id="coffee_items_select">
 							<option value="americano"> AMERICANO / 350р </option>
 							<option value="capuchino"> CAPUSHINO / 300р </option>
 						</select></td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="sirop"> SIROP +20р </td>
+						<td><input type="checkbox" name="c_sirop"> SIROP +20р </td>
 					</tr>
 					<tr>
-						<td><input type="checkbox" name="shugar"> SHUGAR +10р </td>
+						<td><input type="checkbox" name="c_shugar"> SHUGAR +10р </td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="c_cup" value ="paper_cup" checked> PAPER CUP </td>
+						<td><input type="radio" name="c_cup" value ="plastic_cup"> PLASTIC CUP +50р </td>
+					</tr>
+					<tr>
+						<td>Ваше имя: </td>
+						<td><input name="c_text" type="text"></td>
 					</tr>
 				</table>
 			</td>
