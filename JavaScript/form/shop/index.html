@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chill & Coffee</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="script.js"></script>
+
+	<form name="forma">
+		<h1>Chill & Coffee</h1>
+		<table>
+			<tr>
+				<td><select id="napitki" onchange="change()">
+					<option value="1"></option>
+					<option value="tea"> TEA </option>
+					<option value="coffee"> COFFEE </option>
+					<option value="juice"> JUICE </option>
+				</select>
+			</td>
+		</tr>
+
+		<tr  id="tea_items" style="display: none;">
+			<td>
+				<table>
+					<tr>
+						<td><select name="" id="tea_items_select">
+							<option value="green_tea"> GREEN TEA / 150р </option>
+							<option value="black_tea"> BLACK TEA / 100р </option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="shugar"> SHUGAR +10р </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr  id="coffee_items" style="display: none;">
+			<td>
+				<table>
+					<tr>
+						<td><select name="" id="coffee_items_select">
+							<option value="americano"> AMERICANO / 350р </option>
+							<option value="capuchino"> CAPUSHINO / 300р </option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="sirop"> SIROP +20р </td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="shugar"> SHUGAR +10р </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr><td><input type="button" value="click" onclick="btnClick()"></td></tr>
+	</table>
+	
+</form>
+</body>
+</html>
